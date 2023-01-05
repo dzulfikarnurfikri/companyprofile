@@ -30,6 +30,11 @@ header h1 {
 	padding:15px 0;
 	color: #148F77;
 }
+
+.dark-mode {
+	background-color: black;
+	color: white;
+  }
 header ul {
 	float: right;
 }
