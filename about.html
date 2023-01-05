@@ -60,7 +60,7 @@
 	<!-- footer -->
 	<footer>
 		<div class="container">
-			<small>Copyright &copy; 2020 - Dzulfikar. All Rights Reserved.</small>
+			<small id="tahunku"> Copyright &copy; 2020 - Dzulfikar. All Rights Reserved.</small>
 			
 		</div>
 	</footer>
@@ -70,7 +70,9 @@
 		$(document).ready(function(){
 			$(".bg-loader").hide();
 		})
-		document.write(new Date().getFullYear());
+		var date = document.write(new Date().getFullYear());
+document.getElementById("tahunku").innerHTML = date;
+		
 	</script>
 </body>
 </html>
