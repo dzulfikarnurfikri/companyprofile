@@ -46,7 +46,7 @@ header ul li a:hover {
 }
 .active {
 	background-color: #148F77;
-	border: radius 100px;
+	border-radius:  100px;
 	color: #fff;
 }
 .banner {
