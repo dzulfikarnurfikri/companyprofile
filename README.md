@@ -1,2 +1,2 @@
 # companyprofile
-Silahkan dikembangkan lagi
+xi rpl2
