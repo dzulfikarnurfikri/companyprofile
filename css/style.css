@@ -5,10 +5,15 @@
 }
 body {
 	padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-}
+	background-color: white;
+	color: black;
+	font-size: 25px;
+  }
+  
+  .dark-mode {
+	background-color: black;
+	color: white;
+  }
 a {
 	color: inherit;
 	text-decoration: none;
@@ -37,10 +42,7 @@ header h1 {
 	color: #148F77;
 }
 
-.dark-mode {
-	background-color: black;
-	color: white;
-  }
+
 header ul {
 	float: right;
 }
