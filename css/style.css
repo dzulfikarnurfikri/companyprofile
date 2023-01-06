@@ -187,7 +187,7 @@ footer {
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 nav{
   display: flex;
@@ -293,4 +293,13 @@ nav{
 
 .toggle .line3{
   transform: rotate(35deg) translate(-5px,-6px);
-}
+} */
+:root {
+	font-size: 16px;
+	font-family: 'Open Sans';
+	--text-primary: #b6b6b6;
+	--text-secondary: #ececec;
+	--bg-primary: #23232e;
+	--bg-secondary: #141418;
+	--transition-speed: 600ms;
+  }
