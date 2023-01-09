@@ -1,4 +1,7 @@
 @import url('https://fonts.google.com/specimen/Rowdies');
+body {
+    font-family: Rowdies;
+}
 * {
 	padding:0;
 	margin:0;
