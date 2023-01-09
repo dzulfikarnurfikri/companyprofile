@@ -69,6 +69,7 @@ header ul li a:hover {
 	left: 0;
 	right: 0;
 	bottom: 0;
+	background-color: rgba(20, 143, 119, .6);
 	
 }
 .banner h2 {
