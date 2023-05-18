@@ -1,15 +1,20 @@
+@import url('https://fonts.google.com/specimen/Rowdies');
+body {
+    font-family: Rowdies;
+}
 * {
 	padding:0;
 	margin:0;
 	font-family: sans-serif;
 }
+
 a {
 	color: inherit;
-	text-decoration: none;
+	text-decoration: none;  
 }
 .medsos {
 	padding:5px 0;
-	background-color: #148F77;
+	
 }
 .medsos ul li {
 	display: inline-block;
@@ -30,6 +35,8 @@ header h1 {
 	padding:15px 0;
 	color: #148F77;
 }
+
+
 header ul {
 	float: right;
 }
@@ -46,11 +53,12 @@ header ul li a:hover {
 }
 .active {
 	background-color: #148F77;
+	border-radius:  100px;
 	color: #fff;
 }
 .banner {
 	height: 60vh;
-	background-image: url('../img/banner.jpg');
+	background-image: url('../img/jumbotron-bg.jpg');
 	background-size: cover;
 	position: relative;
 	display: flex;
@@ -66,6 +74,7 @@ header ul li a:hover {
 	right: 0;
 	bottom: 0;
 	background-color: rgba(20, 143, 119, .6);
+	
 }
 .banner h2 {
 	color: #fff;
@@ -150,7 +159,7 @@ footer {
 	border-top-color: #148F77;
 	border-right-color: #148F77;
 	border-bottom-color: #148F77;
-	animation: puterin .8s linear infinite;
+	animation: puterin .9s linear infinite;
 }
 .label {
 	background-color: #148F77;
@@ -178,4 +187,4 @@ footer {
 		float: none;
 		margin-bottom: 20px;
 	}
-}
+
